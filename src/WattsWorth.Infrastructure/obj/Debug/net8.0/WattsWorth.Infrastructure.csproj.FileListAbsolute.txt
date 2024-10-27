@@ -1,0 +1,17 @@
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.AssemblyInfo.cs
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\bin\Debug\net8.0\WattsWorth.Infrastructure.deps.json
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\bin\Debug\net8.0\WattsWorth.Infrastructure.runtimeconfig.json
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\bin\Debug\net8.0\WattsWorth.Infrastructure.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\bin\Debug\net8.0\WattsWorth.Infrastructure.pdb
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\bin\Debug\net8.0\WattsWorth.Core.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\bin\Debug\net8.0\WattsWorth.Core.pdb
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWor.EEF2C495.Up2Date
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\refint\WattsWorth.Infrastructure.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.pdb
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.genruntimeconfig.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\ref\WattsWorth.Infrastructure.dll

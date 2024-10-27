@@ -1,0 +1,11 @@
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\bin\Debug\net8.0\WattsWorth.Database.deps.json
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\bin\Debug\net8.0\WattsWorth.Database.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\bin\Debug\net8.0\WattsWorth.Database.pdb
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\WattsWorth.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\WattsWorth.Database.AssemblyInfoInputs.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\WattsWorth.Database.AssemblyInfo.cs
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\WattsWorth.Database.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\WattsWorth.Database.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\refint\WattsWorth.Database.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\WattsWorth.Database.pdb
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Database\obj\Debug\net8.0\ref\WattsWorth.Database.dll

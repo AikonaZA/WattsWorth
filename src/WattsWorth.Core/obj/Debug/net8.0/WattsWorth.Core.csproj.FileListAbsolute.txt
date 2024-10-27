@@ -1,0 +1,11 @@
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\bin\Debug\net8.0\WattsWorth.Core.deps.json
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\bin\Debug\net8.0\WattsWorth.Core.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\bin\Debug\net8.0\WattsWorth.Core.pdb
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.AssemblyInfoInputs.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.AssemblyInfo.cs
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\refint\WattsWorth.Core.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.pdb
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\ref\WattsWorth.Core.dll

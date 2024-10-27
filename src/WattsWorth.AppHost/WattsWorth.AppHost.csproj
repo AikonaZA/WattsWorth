@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsAspireHost>true</IsAspireHost>
+        <UserSecretsId>44ca93ec-3192-4dd3-9d8c-fee483584077</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\WattsWorth.ApiService\WattsWorth.ApiService.csproj"/>
+        <ProjectReference Include="..\WattsWorth.Web\WattsWorth.Web.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="appsettings.Development.json">
+        <DependentUpon>appsettings.json</DependentUpon>
+      </None>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kugfX3j81Q0=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\RiderProjects\\WattsWorth\\src\\WattsWorth.Database\\WattsWorth.Database.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chona\\.nuget\\packages\\sonaranalyzer.csharp\\9.32.0.97167\\sonaranalyzer.csharp.9.32.0.97167.nupkg.sha512"
+  ],
+  "logs": []
+}

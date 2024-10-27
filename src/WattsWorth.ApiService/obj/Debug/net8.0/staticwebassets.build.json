@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "01f6W6ckBGWpocjlNSAaeoQWx2VwxgoRpfNTTruTRZc=",
+  "Source": "WattsWorth.ApiService",
+  "BasePath": "_content/WattsWorth.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
