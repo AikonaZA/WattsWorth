@@ -9,3 +9,4 @@ C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsW
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\refint\WattsWorth.Core.dll
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.pdb
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\ref\WattsWorth.Core.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Core\obj\Debug\net8.0\WattsWorth.Core.sourcelink.json

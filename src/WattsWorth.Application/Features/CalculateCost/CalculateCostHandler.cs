@@ -9,26 +9,24 @@ public class CalculateCostHandler(IPayBracketRepository repository)
     public async Task<CalculateCostResponse> Handle(CalculateCostRequest request, CancellationToken cancellationToken)
     {
         var payBrackets = await repository.GetAllPayBracketsAsync();
-        var unitsToBuy = (request.DaysRemaining * request.AvgDailyUsage) - request.CurrentUnits;
+        var unitsToBuy = request.DaysRemaining * request.AvgDailyUsage - request.CurrentUnits;
 
         if (unitsToBuy <= 0)
-        {
             return new CalculateCostResponse
             {
                 TotalUnitsNeeded = 0,
                 TotalCost = 0
             };
-        }
 
         decimal totalCost = 0;
-        decimal remainingUnits = unitsToBuy;
-        int previousLimit = 0;
+        var remainingUnits = unitsToBuy;
+        var previousLimit = 0;
 
         foreach (var bracket in payBrackets)
         {
             if (remainingUnits <= 0) break;
 
-            int unitsInBracket = Math.Min(bracket.MaxUnits - previousLimit, (int)remainingUnits);
+            var unitsInBracket = Math.Min(bracket.MaxUnits - previousLimit, (int)remainingUnits);
             totalCost += unitsInBracket * bracket.PricePerUnit;
             remainingUnits -= unitsInBracket;
             previousLimit = bracket.MaxUnits;
@@ -41,4 +39,3 @@ public class CalculateCostHandler(IPayBracketRepository repository)
         };
     }
 }
-

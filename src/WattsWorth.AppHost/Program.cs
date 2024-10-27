@@ -1,8 +1,10 @@
+using Projects;
+
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiService = builder.AddProject<Projects.WattsWorth_ApiService>("apiservice");
+var apiService = builder.AddProject<WattsWorth_ApiService>("apiservice");
 
-builder.AddProject<Projects.WattsWorth_Web>("webfrontend")
+builder.AddProject<WattsWorth_Web>("webfrontend")
     .WithExternalHttpEndpoints()
     .WithReference(apiService);
 

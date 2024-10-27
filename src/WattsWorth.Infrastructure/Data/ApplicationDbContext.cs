@@ -12,13 +12,13 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Configure one-to-one relationship between Transaction and ElectricityPurchase
-        modelBuilder.Entity<Transaction>()
-            .HasOne(t => t.ElectricityPurchase)
-            .WithOne(ep => ep.Transaction)
-            .HasForeignKey<ElectricityPurchase>(ep => ep.TransactionId);
         modelBuilder.Entity<PayBracket>();
-        // Other model configurations can be done here as needed
+        // Set up the one-to-one relationship between Transaction and ElectricityPurchase if needed
+        modelBuilder.Entity<ElectricityPurchase>()
+            .HasOne(p => p.Transaction)
+            .WithMany()
+            .HasForeignKey(p => p.TransactionId);
+
         base.OnModelCreating(modelBuilder);
     }
 }

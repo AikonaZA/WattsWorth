@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="SQLite\" />
+        <Folder Include="SQLite\"/>
     </ItemGroup>
 
 </Project>

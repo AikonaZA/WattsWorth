@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WattsWorth.Infrastructure.Data;
-using WattsWorth.Infrastructure.Repositories;
 
 #nullable disable
 
@@ -34,6 +33,9 @@ namespace WattsWorth.Infrastructure.Migrations
                     b.Property<decimal>("PricePerUnit")
                         .HasColumnType("TEXT");
 
+                    b.Property<DateTime>("TransactionDate")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("TransactionId")
                         .HasColumnType("INTEGER");
 
@@ -42,8 +44,7 @@ namespace WattsWorth.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TransactionId")
-                        .IsUnique();
+                    b.HasIndex("TransactionId");
 
                     b.ToTable("ElectricityPurchases");
                 });
@@ -71,49 +72,15 @@ namespace WattsWorth.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<decimal?>("Credit")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("Day")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<decimal?>("Debit")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<int?>("HourDifference")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int?>("MinuteDifference")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Month")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal?>("Price")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("TransactionDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal?>("UnitCost")
+                    b.Property<decimal>("Units")
                         .HasColumnType("TEXT");
-
-                    b.Property<decimal?>("UnitDifference")
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal?>("Units")
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal?>("UnitsPerHour")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("Year")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
@@ -123,18 +90,12 @@ namespace WattsWorth.Infrastructure.Migrations
             modelBuilder.Entity("WattsWorth.Core.Entities.ElectricityPurchase", b =>
                 {
                     b.HasOne("WattsWorth.Core.Entities.Transaction", "Transaction")
-                        .WithOne("ElectricityPurchase")
-                        .HasForeignKey("WattsWorth.Core.Entities.ElectricityPurchase", "TransactionId")
+                        .WithMany()
+                        .HasForeignKey("TransactionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Transaction");
-                });
-
-            modelBuilder.Entity("WattsWorth.Core.Entities.Transaction", b =>
-                {
-                    b.Navigation("ElectricityPurchase")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

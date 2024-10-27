@@ -10,3 +10,4 @@ C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ServiceDefaults\obj\Debug\ne
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ServiceDefaults\obj\Debug\net8.0\refint\WattsWorth.ServiceDefaults.dll
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ServiceDefaults\obj\Debug\net8.0\WattsWorth.ServiceDefaults.pdb
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ServiceDefaults\obj\Debug\net8.0\ref\WattsWorth.ServiceDefaults.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ServiceDefaults\obj\Debug\net8.0\WattsWorth.ServiceDefaults.sourcelink.json

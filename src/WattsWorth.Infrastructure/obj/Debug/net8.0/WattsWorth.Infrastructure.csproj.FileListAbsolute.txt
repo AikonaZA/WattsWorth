@@ -15,3 +15,4 @@ C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.pdb
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.genruntimeconfig.cache
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\ref\WattsWorth.Infrastructure.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.Infrastructure\obj\Debug\net8.0\WattsWorth.Infrastructure.sourcelink.json

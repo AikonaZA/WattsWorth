@@ -8,4 +8,3 @@ public class CalculateCostRequest : IRequest<CalculateCostResponse>
     public int DaysRemaining { get; set; }
     public decimal AvgDailyUsage { get; set; }
 }
-

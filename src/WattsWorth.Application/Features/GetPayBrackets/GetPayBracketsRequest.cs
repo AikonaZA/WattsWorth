@@ -7,4 +7,3 @@ public class GetPayBracketsRequest : IRequest<GetPayBracketsResponse>
 {
     // Optional request parameters for filtering can be added here
 }
-

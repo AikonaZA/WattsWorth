@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WattsWorth.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+788bec44f1ab8a7bfcbca3f7776a40b07a4d72f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2734c7645b1d2b9386515311a811a08551f928f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WattsWorth.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WattsWorth.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

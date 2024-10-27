@@ -173,3 +173,4 @@ C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ApiService\obj\Debug\net8.0\
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ApiService\obj\Debug\net8.0\WattsWorth.ApiService.pdb
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ApiService\obj\Debug\net8.0\WattsWorth.ApiService.genruntimeconfig.cache
 C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ApiService\obj\Debug\net8.0\ref\WattsWorth.ApiService.dll
+C:\Projects\RiderProjects\WattsWorth\src\WattsWorth.ApiService\obj\Debug\net8.0\WattsWorth.ApiService.sourcelink.json
